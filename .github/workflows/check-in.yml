@@ -17,7 +17,7 @@ s = requests.Session()
    
 accounts = [
     {"username": "18266391278", "password": "Aa12345678"}
-    ]
+]
 #填入pushplus token
 pushplus_token = ""
 # 钉钉机器人token 申请key 并设置密钥
