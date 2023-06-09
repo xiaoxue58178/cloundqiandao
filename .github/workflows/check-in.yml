@@ -7,14 +7,10 @@ import hashlib
 import urllib.parse,hmac
 import rsa
 import requests
-import random
-   
-BI_RM = list("0123456789abcdefghijklmnopqrstuvwxyz")
-   
-B64MAP = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
-   
-s = requests.Session()
-   
+import random   
+BI_RM = list("0123456789abcdefghijklmnopqrstuvwxyz")   
+B64MAP = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"   
+s = requests.Session()   
 accounts = [
     {"username": "18266391278", "password": "密码1"},
     {"username": "18053209627", "password": "Ms380882595+"},
@@ -25,7 +21,7 @@ accounts = [
     {"username": "13396394727", "password": "Ms380882595+"},
     {"username": "13061317615", "password": "Aa12345678"},
     # 添加更多账号和密码格式同上一行
-]
+    ]
 #填入pushplus token
 pushplus_token = ""
 # 钉钉机器人token 申请key 并设置密钥
